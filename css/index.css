@@ -1,0 +1,49 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+.topButtons1{
+    position: absolute;
+    right: 0px;
+    color: white;
+    background-color: blue;
+    margin: 15px;
+    font-size: 12px;
+    font-family: Abel-Regular;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px; 
+}
+.topButtons2{
+    position: absolute;
+    right: 80px;
+    color: white;
+    background-color: blue;
+    margin: 15px;
+    font-size: 12px;
+font-family: Abel-Regular;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#pageTitle{
+    font-family: 'Satisfy','cursive';
+    color:blue;
+    font-size: 40px;
+}
+.middleText{
+    font-family: 'Marck Script','cursive';
+    color:black;
+    font-size: 20px;
+    margin-top:5px;
+}
