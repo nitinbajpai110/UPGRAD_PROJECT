@@ -47,3 +47,48 @@ font-family: Abel-Regular;
     font-size: 20px;
     margin-top:5px;
 }
+#allpost{
+    background-color:rgb(199, 199, 20);
+    margin-top:190px;
+    margin-left:600px;
+   
+	
+}
+#createpost{
+    background-color:rgb(199, 199, 20);
+}
+
+.modal-title1{
+    margin-left:140px; 
+    font-weight:bold; 
+    font-size:25px;
+     margin-top:20px;
+}
+.modal-title2{
+    margin-left:180px;
+     font-weight:bold;
+}
+.label{
+    font-weight:bold; 
+}
+#signinbtn{
+    width:465px;
+    background-color:rgb(44, 141, 44);
+    border:none; 
+    margin-top:25px;
+}
+#notamember{
+    font-weight:bold;
+    margin-left:140px;
+    margin-top:20px;
+}
+#lnk{
+    color:blue;
+    font-weight:bold;
+}
+#signupbtn{
+    width:465px; 
+    background-color:rgb(44, 141, 44); 
+    border:none; 
+    margin-top:25px;
+}

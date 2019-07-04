@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
@@ -11,43 +14,103 @@
 	<!-- Place all CSS for fonts in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
 
+    
+
 </head>
-<body>
+<body link="blue">
     <div id="main-container-div">
 
         <div class="header">
 
-        	<!-- Insert code for Sign Up,Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-            <input class="topButtons1" type="button" value="Sign Up">
-            <input class="topButtons2" type="button" value="Sign In">
+        	<!-- code for Sign Up,Sign In button here.code for "ScriBBler" heading and the sub-heading -->
+            <input class="topButtons1" type="button" value="Sign Up" data-toggle="modal" data-target="#exampleModalSignUp">
+            <input class="topButtons2" type="button" value="Sign In" data-toggle="modal" data-target="#exampleModal">
             <a id="pageTitle" class="logo-title">ScriBBler</a>
             <p class="middleText">Explore Imagine Create</p>
-
               
         </div>
-           
+           	<!-- code for all post button and create post button -->
         <div class="postButtons">
 
-        	<!-- Insert code for All Posts & Create Post button here -->
-
+          <button type="button" id="allpost">All Posts</button>
+          <button type="button" id="createpost">Create Post</button>
         </div>
     </div>
-
-    <div>
-
-    	<!-- Insert code for Sign In modal here -->
+    <div >
+    	<!-- code for sign in modal using bootstrap classes -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title1">Welcome Back!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                                <label class="label">Username</label>
+                                <input type="text" class="form-control" placeholder="Enter Username" required="required">
+                            </div>
+                        <div class="form-group">
+                                <label  class="label">Password</label>
+                                <input type="password" class="form-control"  placeholder="Enter Password" required="required">
+                            </div>
+                                 <button type="submit" class="btn btn-primary" id="signinbtn">Sign In</button>
+                        <div class="form-group">
+                                 <label id="notamember">Not a member?</label><a data-toggle="modal" href="#exampleModalSignUp" id="lnk">Sign Up</a>
+                            </div>
+                  
+                   </form>
+            </div>
+ 
+          </div>
+        </div>
+      </div>
+     
 
     </div>
-
+      	<!-- code for sign up modal using bootstrap classes -->
     <div>
-
-    	<!-- Insert code for Sign Up modal here -->
-
+      <div class="modal fade" id="exampleModalSignUp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title2" >Get Started</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="form-group">
+                                    <label  class="label">Full Name</label>
+                                    <input type="text" class="form-control"  placeholder="Enter Full Name" required="required">
+                                </div>
+                            <div class="form-group">
+                                     <label   class="label">Username</label>
+                                     <input type="text" class="form-control"  placeholder="Enter Username" required="required">
+                                </div>
+                            <div class="form-group">
+                                     <label  class="label">Password</label>
+                                     <input type="password" class="form-control" id="password1" placeholder="Enter Password" required="required">
+                                </div>
+                            <div class="form-group">
+                                     <label  class="label" >Confirm Password</label>
+                                     <input type="password" class="form-control" id="password2" placeholder="Confirm Password"required="required">
+                                </div>
+                                      <button type="submit" class="btn btn-primary" id="signupbtn" onclick="verify()" >Sign Up</button>
+                      </form>
+            </div>
+           
+          </div>
+        </div>
+      </div>
     </div>
-
     <div>
 
-    	<!-- Insert code for Create Post modal here -->
+   
 
     </div>
 
