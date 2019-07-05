@@ -2,6 +2,10 @@
 <html>
 
 <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>    
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
@@ -28,12 +32,79 @@
     <div>
 
         <!-- Insert code for Sign In modal here -->
-
-    </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title1">Welcome Back!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                    <label class="label">Username</label>
+                                    <input type="text" class="form-control" placeholder="Enter Username" required="required">
+                                </div>
+                            <div class="form-group">
+                                    <label  class="label">Password</label>
+                                    <input type="password" class="form-control"  placeholder="Enter Password" required="required">
+                                </div>
+                                     <button type="submit" class="btn btn-primary" id="signinbtn">Sign In</button>
+                            <div class="form-group">
+                                     <label id="notamember">Not a member?</label><a data-toggle="modal" href="#exampleModalSignUp" id="lnk">Sign Up</a>
+                                </div>
+                      
+                       </form>
+                </div>
+     
+              </div>
+            </div>
+          </div>
+         
+    
+        </div>
 
     <div>
 
         <!-- Insert code for Sign Up modal here -->
+        <div class="modal fade" id="exampleModalSignUp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title2" >Get Started</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                                <div class="form-group">
+                                        <label  class="label">Full Name</label>
+                                        <input type="text" class="form-control"  placeholder="Enter Full Name" required="required">
+                                    </div>
+                                <div class="form-group">
+                                         <label   class="label">Username</label>
+                                         <input type="text" class="form-control"  placeholder="Enter Username" required="required">
+                                    </div>
+                                <div class="form-group">
+                                         <label  class="label">Password</label>
+                                         <input type="password" class="form-control" id="password1" placeholder="Enter Password" required="required">
+                                    </div>
+                                <div class="form-group">
+                                         <label  class="label" >Confirm Password</label>
+                                         <input type="password" class="form-control" id="password2" placeholder="Confirm Password"required="required">
+                                    </div>
+                                          <button type="submit" class="btn btn-primary" id="signupbtn" onclick="verify()" >Sign Up</button>
+                          </form>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
 
     </div>
 

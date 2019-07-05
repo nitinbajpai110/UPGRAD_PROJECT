@@ -1,49 +1,14 @@
-.topButtons1{
-    position: absolute;
-    right: 0px;
-    color: white;
-    background-color: blue;
-    margin: 15px;
-    font-size: 12px;
-    font-family: Abel-Regular;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top:5px;
-    padding-bottom:5px; 
-}
-.topButtons2{
-    position: absolute;
-    right: 80px;
-    color: white;
-    background-color: blue;
-    margin: 15px;
-    font-size: 12px;
-font-family: Abel-Regular;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-#pageTitle{
-    font-family: 'Satisfy','cursive';
-    color:blue;
-    font-size: 40px;
-}
-.middleText{
-    font-family: 'Marck Script','cursive';
-    color:white;
-    font-size: 20px;
-    margin-top:5px;
-}
 .post {
     position: relative;
-    width: 90%;
+    width: 40%;
     height: 20%;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
     margin: 10px 10px 10px 20px;
     float:left;
     border-radius: 15px;
+    margin-left:5%;
+    margin-right:5%;
 }
     
 .post-left {
@@ -62,7 +27,7 @@ font-family: Abel-Regular;
         background-color: #E8E8E8;
         color: #000000;
         border-radius: 0 15px 15px 0;
-        padding: 0 20px;      
+        padding: 0 20px;    
 }
 .post-title{
     font-family: 'Itim', cursive;
@@ -70,6 +35,7 @@ font-family: Abel-Regular;
     color: #2b312b;
     font-size: 25px;
     height: 25px;
+    margin-top:30px;
     }
 .post-more {
     float: right;
@@ -81,8 +47,10 @@ font-family: Abel-Regular;
     font-size: 30px;
 }
 .post-desc{
-    height: 100px;
+    line-height:1.5em;
+    height: 4.5em;
     margin-bottom: 0 !important;
+    overflow: hidden;
 }
 
 body {
@@ -90,7 +58,7 @@ body {
     width: 100%;
     position: relative;
     margin: 0 !important;
-    color: #fff;
+  
     background-color: orange;
     background-size: 2000% 2000%;
 }
