@@ -1,3 +1,40 @@
+.topButtons1{
+    position: absolute;
+    right: 0px;
+    color: white;
+    background-color: blue;
+    margin: 15px;
+    font-size: 12px;
+    font-family: Abel-Regular;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px; 
+}
+.topButtons2{
+    position: absolute;
+    right: 80px;
+    color: white;
+    background-color: blue;
+    margin: 15px;
+    font-size: 12px;
+font-family: Abel-Regular;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#pageTitle{
+    font-family: 'Satisfy','cursive';
+    color:blue;
+    font-size: 40px;
+}
+.middleText{
+    font-family: 'Marck Script','cursive';
+    color:white;
+    font-size: 20px;
+    margin-top:5px;
+}
 .post {
     position: relative;
     width: 90%;
