@@ -14,3 +14,7 @@ if(a1!=a2)
 else
 alert('YOUR ACCOUNT HAS BEEN CREATED SUCCESSFULLY');
 }
+
+function postt(){
+    location.href="post.html";
+}

@@ -80,8 +80,29 @@ body {
     border:none;
     font-size:24px;
 }
-#trash{
+#btn-confirm{
     float:right;
     border:none;
     background-color: #E8E8E8;
+}
+.btnno{
+    background-color:lightgreen;
+    width:100px;
+    float:right;
+    margin-right:100px;
+}
+.btnyes{
+    background-color: red;
+    width:100px;
+    float:left;
+    margin-left:100px;
+}
+.btnns{
+    display:inline;
+    margin-bottom:20px;
+}
+#sure{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:10px;
 }
