@@ -20,6 +20,9 @@
         font-weight: bold;
         color: #000;
 }
+#centr{
+ margin-left:30%;
+}
 .post-content {
         width: 75%;           
         display: table-cell;
@@ -34,8 +37,10 @@
     font-weight: bold;
     color: #2b312b;
     font-size: 25px;
-    height: 25px;
+    height: 30px;
     margin-top:30px;
+    overflow:hidden;
+   
     }
 .post-more {
     float: right;
@@ -66,4 +71,17 @@ body {
     height: 100%;
     width: 100%;
 
+}
+#icon{
+    float:right;
+    margin-bottom:15px;
+    margin-top:15px;
+    background-color: #E8E8E8;
+    border:none;
+    font-size:24px;
+}
+#trash{
+    float:right;
+    border:none;
+    background-color: #E8E8E8;
 }
